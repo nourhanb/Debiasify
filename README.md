@@ -1,5 +1,5 @@
 # WACV 2025: Debiasify
-Official implementation of paper '__________'
+Official implementation of "Debiasify: Self-Distillation for Unsupervised Bias Mitigation"
 
 ## **Execution Details**
 
