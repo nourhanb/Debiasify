@@ -33,16 +33,14 @@ The README file will be updated after acceptance with detailed execution command
 ## Citation 
 Please consider citing our paper. Thanks!
 
-@inproceedings{bayasi2025debiasify,
-
-  title={Debiasify: Self-Distillation for Unsupervised Bias Mitigation},
-  author={Bayasi, Nourhan and Fayyad, Jamil and Hamarneh, Ghassan and Garbi, Rafeef and Najjaran, Homayoun},
-  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  pages={3227--3236},
-  year={2025},
-  organization={IEEE}
+@inproceedings{bayasi2025debiasify,<br>
+title={Debiasify: Self-Distillation for Unsupervised Bias Mitigation},<br>
+author={Bayasi, Nourhan and Fayyad, Jamil and Hamarneh, Ghassan and Garbi, Rafeef and Najjaran, Homayoun},<br>
+booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},<br>
+pages={3227--3236},<br>
+year={2025},<br>
+organization={IEEE}<br>
 }
-
 
 
 ---
