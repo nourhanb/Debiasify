@@ -1,6 +1,8 @@
 # WACV 2025: Debiasify  
 **Official implementation of "Debiasify: Self-Distillation for Unsupervised Bias Mitigation"**
 
+‼️ This repo is fully generated using [Paper2Code agentic AI](https://github.com/going-doer/Paper2Code/tree/main?tab=readme-ov-file)
+
 ---
 
 ## Abstract

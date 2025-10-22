@@ -1,0 +1,46 @@
+## config.yaml
+training:
+  learning_rate: 1e-4
+  batch_size: 100
+  epochs: 50
+  optimizer: "Adam"
+  weight_decay: 0.01
+  alpha: 0.1
+
+model:
+  backbone: "ResNet18"
+  pretrained: true
+  shallow_layer: "end of second module"
+  deep_layer: "final module"
+
+data:
+  CelebA:
+    image_size: 224
+    augmentations:
+      - "random cropping"
+      - "horizontal flipping"
+      - "normalization"
+  Waterbirds:
+    image_size: 256
+    augmentations:
+      - "random cropping"
+      - "horizontal flipping"
+      - "normalization"
+  Fitzpatrick:
+    image_size: 224
+    augmentations:
+      - "random cropping"
+      - "horizontal flipping"
+      - "normalization"
+
+clustering:
+  gamma:
+    CelebA: "0.003-0.01"
+    Waterbirds: 0.02
+    Fitzpatrick: 0.06
+  method: "adaptive K-means"
+
+loss:
+  classification: "averaged cross-entropy loss"
+  kl_divergence: "KL divergence between shallow and deep logits"
+  mmd: "Maximum Mean Discrepancy with Gaussian RBF kernel"
