@@ -36,15 +36,10 @@ Please consider citing our paper. Thanks!
 @inproceedings{bayasi2025debiasify,
 
   title={Debiasify: Self-Distillation for Unsupervised Bias Mitigation},
-  
   author={Bayasi, Nourhan and Fayyad, Jamil and Hamarneh, Ghassan and Garbi, Rafeef and Najjaran, Homayoun},
-  
   booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-  
   pages={3227--3236},
-  
   year={2025},
-  
   organization={IEEE}
 }
 
