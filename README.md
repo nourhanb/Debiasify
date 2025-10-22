@@ -31,8 +31,7 @@ Our code is publicly available at the following link: [Debiasify](#).
 The README file will be updated after acceptance with detailed execution commands.
 
 ## Citation 
-Please consider citing our paper. Thanks! 
-
+Please consider citing our paper. Thanks!
 @inproceedings{bayasi2025debiasify,
   title={Debiasify: Self-Distillation for Unsupervised Bias Mitigation},
   author={Bayasi, Nourhan and Fayyad, Jamil and Hamarneh, Ghassan and Garbi, Rafeef and Najjaran, Homayoun},
@@ -41,4 +40,7 @@ Please consider citing our paper. Thanks!
   year={2025},
   organization={IEEE}
 }
+
+
+
 ---
